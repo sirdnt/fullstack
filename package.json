@@ -1,0 +1,27 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "some samples describe how to implement node js libs, wiki step to do, sample code snipet",
+  "main": "app.js",
+  "scripts": {
+    "jwt-test": "nodemon run app_jwt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirdnt/fullstack.git"
+  },
+  "author": "sir.dnt@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirdnt/fullstack/issues"
+  },
+  "homepage": "https://github.com/sirdnt/fullstack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0"
+  }
+}
